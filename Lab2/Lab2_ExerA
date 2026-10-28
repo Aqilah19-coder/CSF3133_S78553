@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--SEMANTIC STRUCTURE-->
+<head>
+<meta charset="UTF-8">
+<title>Programming Hackathon</title>
+</head>
+<body>
+<h1>Code Warrior Hackathon <br>#Code to Improvise</h1>
+<nav>
+    <a href="#schedule">Schedule</a> |
+    <a href="#register">Register</a> |
+    <a href="#about">About</a>
+</nav>
+
+<section>
+	<section id="about">
+    <h2>About the event</h2>
+
+    <article>
+        <h3>Event Speaker</h3>
+        <p>Sir Gerald</p>
+
+        <h3>Activity</h3>
+        <p>Hackathon</p>
+    </article>
+</section>
+
+<section id="schedule">
+    <h2>Event Schedule</h2>
+</section>
+
+<section id="register">
+    <h2>Event Registration</h2>
+</section>
+
+<footer>
+	<p>Copyright &copy; 2024 MyComtech Page</p>
+</footer>
+
+<!--EVENT SCHEDULE TABLE-->
+<table border="1">
+	<tr>
+		<th>Time</th>
+		<th>Activity</th>
+		<th>Venue</th>
+		<th>Person in Charge</th>
+	</tr>
+	<tr>
+		<td>8.00 am</td>
+		<td>Registration</td>
+		<td>MP1</td>
+		<td>Mukriz</td>
+	</tr>
+	<tr>
+		<td>9.30 am</td>
+		<td>Briefing</td>
+		<th rowspan="3">CISCO lab</th>
+		<td>Akmal</td>
+	</tr>
+	<tr>
+		<td>10.30 am</td>
+		<td>Official opening ceremony</td>
+		<td>Dr Wan</td>
+	</tr>
+	<tr>
+		<td>11.30 am</td>
+		<td>Competition starts</td>
+		<td>Sofea and Faris</td>
+	</tr>
+	<tr>
+		<td>2.00 pm</td>
+		<td>Lunch break</td>
+		<td>Cafe</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<td>3.00 pm</td>
+		<td colspan="3">Winner Announcement</td>
+	</tr>
+</table>
+
+<!--REGISTRATION FORM-->
+<h2>Registration Form</h2>
+<form action="register.html" method="post">
+	<label for="fname">First name:</label><br>
+	<input type="text" id="fname" name="firstname"><br><br>
+
+	<label for="lname">Last name:</label><br>
+	<input type="text" id="lname" name="lastname"><br><br>
+	
+	<label for="matric">Matric:</label><br>
+	<input type="text" id="matric" name="matricnumber"><br><br>
+
+	<label for="email">Email:</label><br>
+	<input type="email" id="email" name="email"><br><br>
+	
+	<label for="year1">Year of study:</label><br>
+	<input type="radio" id="year1" name="year" value="Year 1">
+	<label for="year1">Year 1</label><br>
+	<input type="radio" id="year2" name="year" value="Year 2">
+	<label for="year2">Year 2</label><br>
+	<input type="radio" id="year3" name="year" value="Year 3">
+	<label for="year3">Year 3</label><br>
+	<input type="radio" id="year4" name="year" value="Year 4">
+	<label for="year4">Year 4</label><br>
+
+	<label>Select the session(s) you'd like to join:</label><br>
+	<input type="checkbox" id="session1" name="sessions" value="Session 1">
+	<label for="session1">Session 1</label><br>
+	<input type="checkbox" id="session2" name="sessions" value="Session 2">
+	<label for="session2">Session 2</label><br>
+	<input type="checkbox" id="session3" name="sessions" value="Session 3">
+	<label for="session3">Session 3</label><br><br>
+
+	<label for="faculty">Choose your faculty:</label>
+	<select id="faculty" name="faculty">
+		<option value="fskm">FSKM</option>
+		<option value="fpm">FPM</option>
+		<option value="fsma">FSMA</option>
+		<option value="fspa">FSPA</option>
+
+	</select><br><br>
+	<input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
