@@ -1,0 +1,200 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff8f0;
+}
+
+/* Header Styling */
+header {
+    background-color: #784212;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header p {
+    color: white;
+    text-align: center;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #a04000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* Interactive Link States (LVHA Order) */
+a:link {
+    color: #1A5276;
+}
+
+a:visited {
+    color: #7D3C98;
+}
+
+a:hover {
+    color: #E67E22;
+}
+
+a:active {
+    color: #C0392B;
+}
+
+/* Navigation Link States */
+nav a:link {
+    color: white;
+}
+
+nav a:visited {
+    color: #f8e5d0;
+}
+
+nav a:hover {
+    color: white;
+    background-color: #d35400;
+}
+
+nav a:active {
+    color: yellow;
+    background-color: #873600;
+}
+
+/* Section Styling */
+section {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: #873600;
+    text-decoration: underline;
+    text-align: center;
+}
+
+/* Menu Item Styling */
+.item {
+    background-color: #fdebd0;
+    padding: 15px;
+    margin: 15px 0;
+    border: 1px solid #e59866;
+    border-radius: 8px;
+}
+
+/* Old Promotion Price */
+.old-price {
+    color: gray;
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+
+/* New Promotion Price */
+.highlight {
+    font-weight: bold;
+    color: #C0392B;
+    font-size: 20px;
+}
+
+/* Video Styling */
+#video {
+    text-align: center;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    font-style: italic;
+    color: #555555;
+    margin-top: 10px;
+}
+
+/* Feedback Form Styling */
+.feedback-form {
+    background-color: #fef5e7;
+    padding: 20px;
+    border: 2px solid #a04000;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.feedback-form input[type="text"],
+.feedback-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+.feedback-form label {
+    display: inline-block;
+    margin: 5px;
+}
+
+/* Submit Button Styling */
+button {
+    background-color: #a04000;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d35400;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #784212;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    nav li {
+        display: block;
+    }
+
+    section {
+        width: 95%;
+    }
+
+    .feedback-form {
+        width: 100%;
+    }
+}
