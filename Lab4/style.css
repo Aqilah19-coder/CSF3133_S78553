@@ -1,0 +1,200 @@
+/* General Page Styling */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f4f9f9;
+	color: #333333;
+}
+
+/* Header */
+header {
+	background-color: #117864;
+	color: white;
+	text-align: center;
+	padding: 10%;
+}
+
+/* Navigation Bar */
+nav {
+	background-color: #145a32;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	display: block;
+	padding: 15px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+/* Link States: LVHA Order */
+a:link {
+	color: #1a5276;
+}
+
+a:visited {
+	color: #7d2c98;
+}
+
+a:hover {	
+	color: #e67e22;
+}
+
+a:active {
+	color: #c0392b;
+}
+
+/* Navigation Link Colours */
+nav a:link,
+nav a:visited {
+	color: white;
+}
+
+nav a:hover {
+	background-color: #1abc9c;
+	color: black;
+}
+
+nav a:active {
+	background-color: #f1c40f;
+	color: black;
+}
+
+/* Sections */
+section {
+	width: 90%;
+	margin: 20px auto;
+	padding: 20px;	
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+
+h2 {
+	color: #117864;
+	text-align: center;
+}
+
+/* Destination Cards */
+.card {
+	background-color: white;
+	padding: 20px;
+	margin: 15px 0;
+	border: 1px solid #cccccc;
+	border-radius: 8px;
+}
+
+.card h3 {
+	color: #148f77;
+}
+
+/* Promotion Prices */
+.price {
+	color: #c0392b;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.old-price {
+	color: gray;
+	text-decoration: line-through;
+	margin-right: 10px;
+}
+
+/* Seat Meter */
+meter {
+	width: 60%;
+	height: 25px;
+}
+
+/* Video Section */
+#video {
+	text-align: center;
+	background-color: #ffffff;
+}
+
+video {
+	max-width: 100%;
+	height: auto;
+}
+
+figure {
+	margin: 10px;
+}
+
+.caption {
+	font-style: italic;
+	color: #555555;
+	margin-top: 10px;
+}
+
+/* Trip Registration Form */
+.trip-form {
+	background-color: white;
+	padding: 20px;
+	border: 2px solid #117864;
+	border-radius: 10px;
+	width: 80%;
+	max-width: 500px;
+	margin: auto;
+	box-sizing: border-box;
+}
+
+.trip-form input[type="text"],
+.trip-form input[type="email"] {
+	width: 100%;
+	padding: 10px;
+	margin: 8px 0 15px;
+	box-sizing: border-box;
+}
+
+.trip-form label {
+	display: inline-block;
+	margin: 5px;
+}
+
+/* Submit Button */
+button {
+	background-color: #117864;
+	color: white;
+	padding: 12px 25px;
+	border: none;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #0e6251;
+}
+
+/* Footer */
+footer {
+	background-color: #145a32;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+	nav li {
+        display: block;
+	}	
+
+	section {
+        width: 95%;
+	}
+
+	.trip-form {
+        width: 100%;
+	}
+}
